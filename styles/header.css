@@ -1,0 +1,144 @@
+.header{
+    background-color: transparent;
+    z-index: 100;
+    font-family: cinzel;
+    font-weight: bold;
+    color: white;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.sub-header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.logo-img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: cinzel;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.logo-img-container a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 4rem;    
+}
+
+
+
+
+.options-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-options-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+.socials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg-icons{
+    display: flex;
+    flex-direction: row;
+
+    gap: 1rem;
+}
+
+.social-svg{
+    width: 2rem;
+}
+.social-svg-burger{
+    display: none;
+    width: 2rem;
+}
+.social{
+    width: 100%;
+}
+
+.burger-btn{
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding-top: 10px;
+    
+    
+}
+.burger-btn span{
+    display: block;
+    background-color: white;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 3px;
+}
+.nav-menu{
+    display: none;
+    position: absolute;
+    width: 20%;
+    height: 100vh;
+    transition: 0.3s ease-in-out;
+    transform:  translateX(100%);
+    top: 3;
+    right: 0;
+    background-color: rgba(49, 158, 231, 0.5);
+    padding-left: 1rem;
+    
+}
+.nav-menu li{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding-top: 1rem;
+}
+.nav-menu.show{
+    display: block;
+    transform: translateX(0);
+}
+
+
+@media (max-width: 650px) {
+    .options-container{
+        display: none;
+    }
+
+    .sub-header{
+        grid-template-columns: 2fr 1fr;
+    }
+    .socials-container{
+        padding-right: 1rem;
+    }
+    .social-svg-burger{
+        display: block;
+    }
+}
+@media (max-width: 440px) {
+    .social-svg{
+        display: none;
+    }
+    .socials-container{
+        padding-right: 0;
+    }
+    .nav-menu{
+        width:40%;
+    }
+}

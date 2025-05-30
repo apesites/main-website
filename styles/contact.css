@@ -1,0 +1,147 @@
+.current-page{
+    border-bottom: solid 2px rgb(186, 186, 0);
+    color: rgb(186, 186, 0);
+}
+
+.contact-us-sec{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    width: 100%;
+    background: linear-gradient(360deg, rgb(238, 244, 244), rgb(35, 127, 185));
+    min-height: 33rem;
+}
+
+.inner-contact-sec{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+.contact-info-sec{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-info-headings h1, h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contact-info-headings h1{
+    font-size: 40px;
+}
+
+.contact-info-disc{
+    width: 80%;
+}
+.contact-socials-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.contact-social-media{
+    width: 2rem;
+}
+.social-icon{
+    width: 100%;
+}
+
+
+.contact-logo-sec{
+    display: flex;
+    align-content: center;
+}
+.contact-logo{
+    width: 70%;
+}
+
+
+.form-sec{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
+.form-heading h3{
+    font-size: 25px;
+}
+.form-heading hr{
+    width: 13rem;
+
+}
+.contact-inputs{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 1rem;
+    font-family: cinzel;
+    font-weight: 600;
+
+}
+.contact-inputs-textarea{
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    font-family: cinzel;
+    font-weight: 600;
+}
+.contact-button{
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #3c8b96;
+    color: white;
+    font-family: cinzel;
+    font-weight: 600;
+
+}
+.submit-icon{
+    width: 1rem;
+}
+
+
+@media (max-width: 870px) {
+    .inner-contact-sec{
+        flex-direction: column;
+    }
+    .contact-info-headings h3{
+        font-size: 15px;
+    }
+
+    .form-sec{
+        width: 70%;        
+    }
+}
+
+@media (max-width: 724px) {
+    .contact-info-headings h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 456px) {
+    .contact-info-sec{
+        width: 98%;
+    }
+}

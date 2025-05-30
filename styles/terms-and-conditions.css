@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: cinzel;
+}
+.terms-sec{
+    width: 100%;
+    min-height: 50rem;
+    
+}
+
+.terms-inner-sec{
+    width: 100%;
+    margin: 0 auto;
+    background:  linear-gradient(360deg, rgb(238, 244, 244), rgb(35, 127, 185));
+    position:relative;
+    top: 0;
+    margin-bottom: 0;
+    min-height: 40rem;
+    
+
+
+}
+
+.terms-inner-sec-2{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(238, 244, 244);
+    margin-top: 0;
+}
+
+
+.terms-con{
+    padding-top: 5rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+}
+.terms-con-2{
+    padding-top: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+
+}

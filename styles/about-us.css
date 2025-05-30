@@ -1,0 +1,136 @@
+.current-page{
+    border-bottom: solid 2px rgb(186, 186, 0);
+    color: rgb(186, 186, 0);
+}
+
+
+
+.about-us-sec{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 29rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    background: linear-gradient(360deg, rgb(238, 244, 244), rgb(35, 127, 185));
+}
+.about-us-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+.about-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.about-con h2{
+    margin-bottom: 0;
+}
+.about-con h3{
+    text-align: center;
+}
+.about-con p{
+    font-weight: 600;
+}
+
+.mission{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    
+
+}
+.mission-con{
+    width: 40%;
+}
+
+.benefits{
+    width: 40%;
+}
+
+
+
+.us-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background: rgb(238, 244, 244);
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+
+}
+.us-inner{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.us-header{
+    margin: 0 auto;
+}
+
+.us-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content{
+    background: linear-gradient(360deg, rgb(238, 244, 244), rgb(35, 127, 185, 0.3));
+    width: 19rem;
+    padding-left: 10px;
+    border-radius: 1rem;
+}
+.content p{
+    width: 95%;
+    font-weight: 600;
+}
+
+.terms-and-conditions-link{
+  background-color: rgb(238, 244, 244);
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 510px) {
+
+    .mission{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mission-con, .benefits{
+        width: 90%;
+        
+    }
+    .about-con{
+        width: 100%;
+    }
+    .about-con p{
+        width: 100%;
+    }
+}
+
+@media (max-width: 616px) {
+    .us-content{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        
+    }
+}

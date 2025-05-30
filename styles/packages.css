@@ -1,0 +1,113 @@
+.package-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 25rem;
+    background-color: rgb(238, 244, 244);
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+}
+.package-inner-sec{
+    width: 98%;
+    min-height: 20rem;
+}
+
+.package-top{
+ display: flex; 
+ flex-direction: column;
+ align-items: center;  
+ width: 90%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.package-bottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    justify-content: center;
+    width: 100%;
+    gap: 3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+
+.package{
+    width: 20rem;
+    border-radius: 1rem;
+    background: linear-gradient(360deg, rgb(238, 244, 244), rgb(35, 127, 185, 0.3));
+    padding-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.package-title{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 1rem;
+
+    
+}
+.package-star{
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+.package-deal{
+    margin-left: 1rem;
+}
+.package-deal h1{
+    margin-bottom: 0px;
+}
+.package-deal h2{
+    margin-top: 10px;
+}
+
+.package-details li{
+    list-style: none;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.list-icon{
+    width: 1rem;
+    margin-right: 10px;
+}
+
+
+.package-button-con{
+    display: flex;
+    justify-content: center;
+}
+.package-button{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    border: solid 1px rgb(49, 186, 49);
+    background-color: rgb(49, 186, 49);
+    font-weight: bold;
+    color: white;
+}
+.package-icon{
+    width: 22px;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 398px) {
+    .package-top h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 330px) {
+    .package-top{
+        background: linear-gradient(360deg, rgb(238, 244, 244), rgb(35, 127, 185, 0.3));
+    }
+}

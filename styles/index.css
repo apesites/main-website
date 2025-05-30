@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+body p{
+    font-family: cinzel;
+    font-size: 14px;
+}
+body h1, h2, h3 {
+    font-family: cinzel;
+}
+.scroll-up-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: #3c8b96;
+    border-radius: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    z-index: 100;
+}
+.scroll-icon{
+    width: 20px;
+}
