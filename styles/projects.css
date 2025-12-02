@@ -29,16 +29,16 @@
 }
 .projects{
     width: 100%;
-    min-height: 23rem;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
     justify-content: center;
     gap: 3rem;
 }
 .project{
-    width: 14rem;
-    height: 26rem;
+    width: 13rem;
+    max-height: 22rem;
     overflow: hidden;
+    margin: 0 auto;
     
 }
 .web-img{
@@ -48,10 +48,10 @@
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 950px) {
     .projects{
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
 }
